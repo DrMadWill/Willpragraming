@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yoxlama</title>
+    
+    <style>
+    
+        
+        body{
+            margin: 40px;
+        }
+        
+        
+        #cotiner{
+            display: inline-block;
+            
+        }
+        
+        #cotiner:hover .right{
+            width: 100%;
+        }
+        
+         #cotiner:hover .left{
+            width: 100%;
+        }
+        
+        
+        .cut{
+            display:;
+            width:100%;
+            height:1px;
+           
+        }
+        
+        .box{
+            box-sizing: border-box;
+            
+            height: 1px;;
+            
+            width: 50%;
+            float: left;
+            
+        }
+        
+        .right{
+            float: right;
+            
+            
+            width: 0.01px;
+            border-bottom: 1px solid green;
+            transition: all 0.5s;
+        
+        }
+        
+        .left{
+            float: left;
+            
+            
+            width: 0.01px;
+            border-bottom: 1px solid red;
+            transition: all 0.5s;
+        }
+    
+    
+    
+    </style>
+    
+</head>
+<body>
+   
+   <div id="cotiner">
+      
+       <div class="cont">Manga gecesi</div>        
+       <div class="cut">
+           <div class="box">
+               <div class="right"></div>
+           </div>
+           <div class="box">
+               <div class="left"></div>
+           </div>
+       </div>
+       
+   </div>
+   
+   
+    
+</body>
+</html>

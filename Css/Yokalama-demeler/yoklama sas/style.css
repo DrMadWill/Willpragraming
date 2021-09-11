@@ -1,0 +1,18 @@
+body {
+  background-color: rebeccapurple; }
+
+span {
+  display: block;
+  color: aquamarine;
+  background-color: chocolate;
+  border-left: 10px solid green;
+  padding: 15px 0; }
+
+body div {
+  margin: 40px;
+  padding: 15px 27px;
+  background-color: blue;
+  width: 250px;
+  text-align: center; }
+  body div::first-letter {
+    font-size: 25px; }

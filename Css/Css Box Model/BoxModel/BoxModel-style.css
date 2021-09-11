@@ -1,0 +1,22 @@
+
+.box{
+    width: 300px;
+    height: 150px;
+}
+
+
+#model-1{
+    box-sizing: content-box;
+    background-color: aqua;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 15px;
+}
+
+#model-2{
+    box-sizing: border-box;
+    background-color: yellow;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 15px;
+}

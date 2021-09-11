@@ -1,0 +1,43 @@
+div{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    height: 200px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    float: left;
+    position: relative;
+    
+}
+
+ 
+span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size:20px;
+    
+    
+    position: absolute;
+    bottom: 30px;
+    
+    transition: bottom 0.3s linear ; 
+    
+}
+div:hover span{
+    bottom: 40px;
+}
+
+
+@media screen and ( max-width:800px ){
+    div{width: 50%;
+}
+
+    
+@media screen and ( max-width:550px ){
+    div{width: 100%;
+}
+    
+    
+    

@@ -1,0 +1,47 @@
+
+body{
+    background-color: #f2f2f2;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 30px;
+    background-color: #fff; 
+}
+
+.care-1{
+    -webkit-box-shadow:10px 10px;
+    -moz-box-shadow:10px 10px;
+    box-shadow:10px 10px;
+}
+
+.care-2{
+    -webkit-box-shadow: 10px 10px 20px;
+    -moz-box-shadow: 10px 10px 20px;
+    box-shadow: 10px 10px 20px;
+}
+
+.care-3{
+    -webkit-box-shadow: 10px 10px 20px 2px rgba(0,0,0,.6);
+    -moz-box-shadow: 10px 10px 20px 2px rgba(0,0,0,.6);
+    box-shadow: 10px 10px 20px 2px rgba(0,0,0,.6);
+    
+}
+
+.care-4:hover{
+    -webkit-box-shadow: 10px 10px 20px 2px rgba(0,0,0,.6);
+    -moz-box-shadow: 10px 10px 20px 2px rgba(0,0,0,.6);
+    box-shadow: 10px 10px 20px 2px rgba(0,0,0,.6);
+    
+}
+
+.care-5{
+    box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.30);
+}
+
+.care-6{
+    border: 1px solid #BFBFBF;
+    box-shadow: 10PX 10px 6px #aaaaaa;
+}

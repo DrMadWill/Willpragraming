@@ -1,0 +1,33 @@
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-bottom: 20px;
+    transition: width 2s,background 1s ;
+    transition-delay: 0.3s;
+    
+    
+    
+}
+
+.box:hover{
+    background-color: red;
+    width: 450px;
+}
+
+.care-1{
+    transition-timing-function: ease-in;
+    
+}
+.care-2{
+    transition-timing-function:linear;
+}
+
+.care-3{
+    transition-timing-function:ease-in;
+    
+}
+
+

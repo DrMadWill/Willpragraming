@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+}
+
+.box{
+    width: 140px;
+    height: 140px;
+    
+}
+
+
+#frist{
+    background-color: greenyellow;
+    padding-top: 10px;
+}
+
+#second{
+    
+    background-color: yellow;
+    padding-bottom: 60px;
+}
+
+#third{
+    background-color: skyblue;
+    padding-left: 30px;
+}
+
+span{
+    background-color: aquamarine;
+    padding: 10px;
+}

@@ -1,0 +1,35 @@
+table{
+    
+    border-width: inherit;
+    border-collapse: collapse;
+}
+
+
+#basliq{
+    background-color:deepskyblue;
+    color: white;
+}
+
+
+th{
+    padding: 8px 12px;
+    text-align: left;   
+}
+
+td{
+    padding: 8px 12px;
+
+    
+}
+
+tbody tr:nth-of-type(odd){
+    
+}
+
+tbody tr:nth-of-type(even){
+    background-color: #f3f2f3;
+}
+
+tbody tr:hover{ 
+    background-color: #deddde;
+}

@@ -1,0 +1,25 @@
+$bgar:blue;
+
+
+@import "leyout";
+
+
+body{
+    
+    
+    div{
+        margin: 40px;
+        padding: 15px 27px;
+        background-color:$bgar;
+        width: 250px;
+        text-align: center;
+        
+        &::first-letter{
+            font-size: 25px;
+        }
+        
+    }
+    
+   
+     
+}

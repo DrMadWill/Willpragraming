@@ -1,0 +1,123 @@
+body{
+    font-family: 'Yusei Magic', sans-serif;
+}
+a{
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+}
+
+
+.litred{
+    background-color: white;
+    color:crimson;
+    border: 1px solid crimson;
+}
+
+.litred:hover{
+    
+    background-color: crimson;
+    color:white;
+    border: 1px solid white;
+}
+
+.red{
+    background-color: white;
+    color:red;
+    border: 1px solid red;
+}
+
+.red:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+
+.orga{
+    background-color: white;
+    color: #601632;
+    border: 1px solid #601632;
+    
+}
+
+.orga:hover{
+    background-color:#601632 ;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.azur{
+    background-color: white;
+    color:#C2C7D1 ;
+    border: 1px solid #C2C7D1;
+    
+}
+
+.azur:hover{
+    background-color:#C2C7D1;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.blue{
+    background-color: white;
+    color: lightskyblue;
+    border: 1px solid lightskyblue;
+}
+
+.blue:hover{
+    background-color:lightskyblue;
+    color: white;
+    border: 1px solid white;
+}
+
+.komp{
+    width: 60px;
+    padding: 4px 7px;
+    background-color: orange;
+    color: white;
+}
+
+.komp:hover{
+    opacity: 0.6;
+}
+
+.web{
+    width: 100px;
+    padding: 12px 20px;
+    background-color: midnightblue;
+    color: white;
+}
+
+.web:hover{
+    opacity: 0.6;
+}
+
+
+.gelis{
+    width: 150px;
+    padding: 22px 30px;
+    background-color: forestgreen;
+    color: white;
+    
+}
+
+.gelis:hover{
+    opacity: 0.6;
+}
+
+.kurs{
+    width: 200px;
+    padding: 30px 38px;
+    background-color: brown;
+    color: white;
+}
+
+.kurs:hover{
+    opacity: 0.6;
+}
+

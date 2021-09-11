@@ -1,0 +1,102 @@
+/* Pseudo Elemet */
+p::first-line{
+    
+    color: deeppink;
+    font-weight:bold;
+    word-spacing: 9px;
+    letter-spacing: 3px;
+}
+
+p.about::first-line{
+    
+    color: forestgreen;
+}
+
+p::first-letter{
+    
+    font-size: 50px;
+}
+
+p::after{
+    
+    content:"KBOOOOOM";
+    padding: 15px;
+    background-color: crimson;
+    
+    display: block;
+}
+
+/* Pseudo Class */
+
+ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom:5px;
+}
+
+ul li:first-child{
+    
+    background-color:yellow;
+}
+
+ul li:last-child{
+    
+    background-color:yellowgreen;
+}
+
+ul li:nth-of-type(even){
+    
+    border: 3px solid red;
+    
+    
+}
+
+ul li:nth-of-type(odd){
+    border: 3px solid red;
+    
+    
+}
+
+a{
+    padding: 8px 16px;
+    color: gainsboro;
+    margin-bottom: 5px;
+    text-decoration: none;
+    border: 2px solid grey;
+    display: block;
+    width: 100px;
+    
+}
+
+a:link{
+    
+  color: darkorange;
+}
+
+a:visited{
+    
+    color:skyblue;
+}
+
+a:hover{
+    
+      background-color: yellowgreen;
+      color:yellow;
+    
+}
+
+a:active{
+    background-color: yellow;
+    color: yellowgreen;
+}
+
+span{
+    display:none;
+    background-color: greenyellow;
+    color: red;
+    padding: 10px;
+}
+
+div:hover span{
+    display: block;
+ }

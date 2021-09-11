@@ -1,0 +1,25 @@
+body{
+    font-size: 22px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#metin{
+    width: 700px;
+    margin: 50px auto;
+}
+
+#frist{
+    text-align: right;
+}
+
+#second{
+    text-align: justify;
+}
+
+#third{
+    column-count: 3;
+    column-rule: 1px solid lightgray;
+    border: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}

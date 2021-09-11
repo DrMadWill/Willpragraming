@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tooltip</title>
+    <style>
+    
+        .abc{
+            display: inline-block;
+            border: 3px solid black;
+            
+            
+        }
+        
+        .ab-1{
+            display: inline-block;
+            width: 60px;
+            height: 70px;
+            background-color: red;
+            
+        }
+        
+        
+        .ab-2{
+            display: none;
+            width: 60px;
+            height: 70px;
+            background-color: green;
+            margin-left: 15px;
+            
+            
+        }
+        
+        .abc:hover .ab-2{
+            display: inline-block;
+        }
+        
+        .ab-3{
+            display: inline-block;
+            width: 60px;
+            height: 70px;
+            background-color: blue;
+            
+            visibility: hidden;
+        }
+        
+        .abc:hover .ab-3{
+            visibility: visible;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+ <div class="abc">
+     <div class="ab-1">1</div>
+     <div class="ab-2">2</div>
+     
+ </div>
+ 
+ 
+<br><br>
+
+
+<div class="abc">
+   <div class="ab-1">1</div>
+   <div class="ab-3">3</div>
+</div>
+
+</body>
+
+</html>

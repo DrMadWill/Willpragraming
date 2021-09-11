@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+div{
+    width: 100%;
+    height: 75vh;
+    
+}
+
+.b-img{
+    background-image:
+        linear-gradient(to top,rgba(230, 230, 230,0.4), rgba(128, 128, 128,0.7) ) ,url(../unnamed.jpg);
+    background-size: contain;
+    background-position: center;
+    clip-path:polygon(0 0,100% 0,100% 75%,0 100%);
+}
+
+/*
+rgb (230, 230, 230)
+
+rgb (128, 128, 128)
+*/

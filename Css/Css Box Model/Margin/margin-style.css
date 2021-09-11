@@ -1,0 +1,32 @@
+
+body{
+    margin: 0;
+}
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.cuk{
+    background-color: bisque;
+    margin: 25px;
+}
+
+
+#frist{
+    background: red;
+    margin-top: 50px;
+}
+
+#second{
+    background: green;
+    margin-bottom: 20px;
+}
+
+#third{
+    background-color: blue;
+    margin-left: 50px;
+}
