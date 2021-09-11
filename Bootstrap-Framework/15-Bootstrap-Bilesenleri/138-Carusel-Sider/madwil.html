@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <title>Carusel Slider</title>
+    <style>
+
+        .sas{
+            width: 1200px;
+            height: 550px;
+            
+        }
+
+        .mk{
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .tir{
+            background-image: url(carousel-img/blac.jpg);
+        }
+
+        .tir-1{
+            background-image: url(carousel-img/cast.jpg);
+        }
+
+        .tir-2{
+            background-image: url(carousel-img/dun.jpg);
+        }
+
+
+       
+    </style>
+</head>
+<body class="p-0 m-0">
+
+
+    <!--
+
+    <div class="container my-4">
+
+    
+
+        <div id="slid" class="carousel silde" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active sas">
+                    <img src="carousel-img/atladida.jpg" class="d-block w-100 mk" alt="">
+                </div>
+
+                <div class="carousel-item sas">
+                    <img src="carousel-img/atlati.jpg" class="d-block w-100 mk" alt="">
+                </div>
+
+                <div class="carousel-item sas">
+                    <img src="carousel-img/atlid.jpg" class="d-block w-100 mk" alt="">
+                </div>
+            </div>
+
+            <a href="#slid" class="carousel-control-prev" data-slide="prev" >
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slid" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    
+
+    </div>
+
+    
+
+
+    <div id="slok" class="carousel slid mx-auto " data-ride="carousel" >
+
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="carousel-img/tis.jpg" class="w-100 d-block img-fluid sas mk" alt="">
+            </div>
+
+            <div class="carousel-item">
+                <img src="carousel-img/dun.jpg" class="w-100 d-block img-fluid sas mk" alt="">
+            </div>
+
+            <div class="carousel-item">
+                <img src="carousel-img/fas.jpg" class="w-100 d-block img-fluid sas mk" alt="">
+            </div>
+        </div>
+        <a href="#slok" class="carousel-control-prev" data-slide="prev" >
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#slok" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+    
+
+    <div id="tok" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#tok" data-slide-to="0" class="active"></li>
+            <li data-target="#tok" data-slide-to="1"></li>
+            <li data-target="#tok" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+                <img src="carousel-img/a.jpg" class="w-100 d-block img-fluid sas mk" alt="">
+                <div class="carousel-caption">
+                    <h5>Slide Header</h5>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="carousel-img/atlis.jpg" class="w-100 d-block img-fluid sas mk" alt="">
+                <div class="carousel-caption">
+                    <h5>Silder-1</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet.5
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="carousel-img/blac.jpg" class="w-100 d-block img-fluid sas mk" alt="">
+                <div class="carousel-caption lead">
+                    <h5 class="display-4">Silde Head-cast</h5>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed?
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#tok" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#tok" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+
+    -->
+
+    <div id="tilok"  class="carousel carousel-fade slide">
+
+        <ul class="carousel-indicators">
+            <li data-target="#tilok" data-slide-to="0" class="active"></li>
+            <li data-target="#tilok" data-slide-to="1"></li>
+            <li data-target="#tilok" data-slide-to="2"></li>
+        </ul>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="carousel-img/atlid.jpg" class="w-100 d-block img-fluid sas mk" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-1">Just cut it</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio iure dolore sapiente eum, illum in. Quia harum beatae, laboriosam alias quibusdam ratione delectus vel eligendi minima adipisci consequuntur inventore!
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="carousel-img/a.jpg" class="w-100 d-block img-fluid sas mk" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem ipsum dolor, sit amet consectetur adipisicing.</h5>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="carousel-img/cast.jpg" class="w-100 d-block img-fluid sas mk" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum dolor.</h5>
+                    <p class="text-success">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quas consectetur doloribus odit deleniti nisi iusto tempora minima, fugiat laborum soluta numquam explicabo similique harum tenetur in a. Consectetur?
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <a href="#tilok" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#tilok" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
